@@ -1,0 +1,83 @@
+.text-blue {
+    color: rgb(58, 192, 195);
+}
+
+.img-full {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .header-padding {
+        padding: 50px 32px;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .mynavbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .hagiang-container {
+        height: 300px;
+    }
+}
+
+.hagiang-pic-height {
+    height: 300px;
+    margin: 12px 0;
+}
+
+.section-m {
+    margin: 40px 0;
+}
+
+.hagiang-text p {
+    font-size: 16px;
+}
+
+@media (max-width: 991px) {
+    .hagiang-price p {
+        width: 300px;
+    }
+}
+
+.hagiang-price {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hagiang-price h4 {
+    color: orange;
+}
+
+.hagiang-price p {
+    text-align: center;
+    background-color: rgb(58, 192, 195);
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(58, 192, 195);
+    color: white;
+    padding: 12px 0;
+}
